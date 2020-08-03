@@ -8,9 +8,13 @@ set the dabase username, password in application properties
 database:
 
 username: john, mary, susan
+
 normal user: john
+
 admin user: mary, susan
+
 all the user's password : fun123
+
 
 the system can login, register new user show user's transaction
 
