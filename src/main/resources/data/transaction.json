@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "bill": 10.50,
+    "invoiceNum": 11001,
+    "createdTime": "2020-01-02 15:00:00"
+  },
+ {
+    "id": 2,
+    "userId": 1,
+    "bill": 100.50,
+    "invoiceNum": 11002,
+    "createdTime": "2020-01-12 15:00:00"
+  },
+  {
+    "id": 3,
+    "userId": 2,
+    "bill": 1000.50,
+    "invoiceNum": 12001,
+    "createdTime": "2020-02-02 15:00:00"
+  },
+  {
+    "id": 4,
+    "userId": 2,
+    "bill": 50.50,
+    "invoiceNum": 12002,
+    "createdTime": "2020-02-04 15:00:00"
+  }
+]

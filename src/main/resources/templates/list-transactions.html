@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http:www.thymeleaf.org">
+
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>Transaction Directory</title>
+	<!-- 
+	<link rel="stylesheet" th:href="@{/css/demo.css}">
+	 -->
+</head>
+
+<body>
+	<div>
+		<h3>Transaction Directory</h3>
+		<hr>
+		
+		<table class="table table-bordered table-striped" border="1">
+			<thead class="thead-dark">
+				<tr>
+					<th>User id</th>
+					<th>Bill</th>
+					<th>Invoice number</th>
+					<th>Created Time</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr th:each="tmpTransaction : ${transactions}">
+					<td th:text="${tmpTransaction.userId}">
+					<td th:text="${tmpTransaction.bill}">
+					<td th:text="${tmpTransaction.invoiceNum}">
+					<td th:text="${tmpTransaction.createdTime}">
+					
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<a th:href="@{/}">Back to home</a>
+	
+</body>
+</html>

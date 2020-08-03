@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "firstName": "David",
+    "lastName": "Rossi",
+    "email": "david@gmail.com",
+    "createdTime": "2016-12-18 07:53:34"
+  },
+  {
+    "id": 2,
+    "firstName": "Mary",
+    "lastName": "Leo",
+    "email": "Mary@gmail.com",
+    "createdTime": "2016-12-19 07:53:34"
+  }
+]
+
